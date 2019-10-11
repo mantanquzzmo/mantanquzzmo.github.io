@@ -1,3 +1,51 @@
-h1 {
-    color: #0066ff
+
+
+  .header-img {
+    width: 100%;
+    height: 400px;
+    background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+    background-size: cover;
   }
+
+  .menu {
+    float: right;
+  }
+  .menu ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #c5bb27;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+p {
+    text-align: center; 
+}
+.link {
+    text-align: center;
+}
+
+
